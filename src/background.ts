@@ -1,9 +1,11 @@
 chrome.webNavigation.onCommitted.addListener((details) => {
-  // TODO: turn this into a set of urls
-  const urlToRedirectFrom = "https://www.nytimes.com/";
+  const urlsToRedirectFrom = [
+    "https://www.nytimes.com/",
+    "https://www.bloomberg.com/",
+  ];
   const newURLBase = "https://archive.is/";
 
-  if (details.url.startsWith(urlToRedirectFrom)) {
+  if (urlsToRedirectFrom.some((url) => details.url.startsWith(url))) {
     // strip out url parameters
     let appendedURL = details.url.split("?")[0];
 
