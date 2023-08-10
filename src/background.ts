@@ -2,6 +2,8 @@ chrome.webNavigation.onCommitted.addListener((details) => {
   const urlsToRedirectFrom = [
     "https://www.nytimes.com/",
     "https://www.bloomberg.com/",
+    "https://www.ft.com",
+    "https://www.wsj.com",
   ];
   const newURLBase = "https://archive.is/";
 
