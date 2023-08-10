@@ -1,9 +1,13 @@
 chrome.webNavigation.onBeforeNavigate.addListener((details) => {
-  const urlToRedirectFrom = "https://old-url.com/";
-  const newURL = "https://new-url.com/";
+  // TODO: turn this into a set of urls
+  const urlToRedirectFrom = "https://www.nytimes.com/";
+  const newURLBase = "https://archive.is/";
 
   if (details.url.startsWith(urlToRedirectFrom)) {
-    const redirectURL = details.url.replace(urlToRedirectFrom, newURL);
+    // strip out url parameters
+    let appendedURL = details.url.split("?")[0];
+
+    const redirectURL = newURLBase + appendedURL;
     chrome.tabs.update(details.tabId, { url: redirectURL });
   }
 });
