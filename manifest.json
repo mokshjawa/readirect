@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Redirector",
+  "permissions": [
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "*://old-url.com/*" // Replace with the URL pattern you want to redirect from
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "version": "1.0"
+}
