@@ -1,4 +1,4 @@
-chrome.webNavigation.onBeforeNavigate.addListener((details) => {
+chrome.webNavigation.onCommitted.addListener((details) => {
   // TODO: turn this into a set of urls
   const urlToRedirectFrom = "https://www.nytimes.com/";
   const newURLBase = "https://archive.is/";
