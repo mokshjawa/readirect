@@ -16,5 +16,13 @@ yarn install
 yarn run build
 ```
 
+### Local Usage
+i.e. installing local build on Chrome
+
+ 1. Go to chrome://extensions/.
+ 2. Make sure Developer Mode is enabled (check top right).
+ 4. Click Load unpacked extension.
+ 5. Select the `dist/` directory (will only appear after build step).
+
 ## Contributing
 - If you think you've found a bug with Smart Redirector, [open an issue](https://github.com/mokshjawa/smart-redirector/issues/new).
