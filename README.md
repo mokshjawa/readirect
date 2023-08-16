@@ -1,4 +1,4 @@
-# Smart Redirector
+# Readirect - Read Behind The Paywall
 Chrome extension to automatically redirect to [archive.is](https://archive.is/) for content blocked by paywalls (i.e. _NY Times_, _Wall Street Journal_, etc)
 
 ## Installation
@@ -25,4 +25,4 @@ i.e. installing local build on Chrome
  5. Select the `dist/` directory (will only appear after build step).
 
 ## Contributing
-- If you think you've found a bug with Smart Redirector, [open an issue](https://github.com/mokshjawa/smart-redirector/issues/new).
+- If you think you've found a bug with Smart Redirector, [open an issue](https://github.com/mokshjawa/redirect/issues/new).
