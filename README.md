@@ -1,6 +1,6 @@
 # Readirect - Read Behind The Paywall
 
-Chrome extension to automatically redirect to [archive.is](https://archive.is/) for content blocked by paywalls (i.e. _NY Times_, _Wall Street Journal_, etc)
+Chrome extension to automatically redirect to [archive.is](https://archive.is/) for content blocked by paywalls (i.e. _The NY Times_, _The Wall Street Journal_, etc)
 
 ## Installation
 
