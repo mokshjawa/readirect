@@ -15,3 +15,6 @@ yarn install
 ```sh
 yarn run build
 ```
+
+## Contributing
+- If you think you've found a bug with Smart Redirector, [open an issue](https://github.com/mokshjawa/smart-redirector/issues/new).
