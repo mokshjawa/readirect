@@ -31,4 +31,4 @@ i.e. installing local build on Chrome
 
 ## Contributing
 
-- If you think you've found a bug with Smart Readirect, [open an issue](https://github.com/mokshjawa/readirect/issues/new).
+- If you think you've found a bug with Readirect, [open an issue](https://github.com/mokshjawa/readirect/issues/new).

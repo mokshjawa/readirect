@@ -1,5 +1,5 @@
 {
-  "name": "smart-redirector",
+  "name": "readirect",
   "version": "1.0.0",
   "description": "Chrome extension to automatically redirect to archive.is for content blocked by paywalls (i.e. NY Times)",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mokshjawa/smart-redirector.git"
+    "url": "git+https://github.com/mokshjawa/readirect.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mokshjawa/smart-redirector/issues"
+    "url": "https://github.com/mokshjawa/readirect/issues"
   },
-  "homepage": "https://github.com/mokshjawa/smart-redirector#readme",
+  "homepage": "https://github.com/mokshjawa/readirect#readme",
   "devDependencies": {
     "@types/chrome": "^0.0.243",
     "copy-webpack-plugin": "^11.0.0",
