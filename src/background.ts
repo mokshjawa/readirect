@@ -5,6 +5,7 @@ chrome.webNavigation.onCommitted.addListener((details) => {
     "https://www.ft.com/",
     "https://www.wsj.com/",
     "https://www.washingtonpost.com/",
+    "https://www.theatlantic.com/",
   ];
   const newURLBase = "https://archive.is/";
 
